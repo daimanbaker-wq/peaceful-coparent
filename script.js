@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
     notifyForm.addEventListener("submit", function (e) {
       e.preventDefault();
       notifyForm.innerHTML =
-        '<p class="coming-soon-text">Thank you — we\u2019ll email you the moment the Co-Parent Bill of Rights is ready.</p>';
+        '<p class="coming-soon-text">Thank you — we\u2019ll email you the moment the Peaceful Co-Parent Bill of Rights is ready.</p>';
     });
   }
 });
