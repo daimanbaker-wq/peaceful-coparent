@@ -8,7 +8,7 @@
 //   const GUMROAD_URL = "https://daimanbaker.gumroad.com/l/peaceful-coparent";
 // Leave it as an empty string to show the "coming soon" state.
 // ============================================================
-const GUMROAD_URL = "";
+const GUMROAD_URL = "https://baker84.gumroad.com/l/bpplox";
 
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("lead-form");
