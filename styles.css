@@ -253,6 +253,59 @@ body {
 
 .cta-center { text-align: center; }
 
+/* ---------- NARRATIVE ---------- */
+.narrative {
+  padding: 72px 0;
+  background: var(--cream-deep);
+  text-align: center;
+}
+
+.narrative-text {
+  font-family: var(--sans);
+  font-size: clamp(1rem, 2vw, 1.15rem);
+  font-weight: 300;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  color: var(--ink);
+}
+
+.narrative-text:last-child {
+  margin-bottom: 0;
+}
+
+/* ---------- BENEFITS LIST ---------- */
+.benefits-list {
+  list-style: none;
+  max-width: 600px;
+  margin: 0 auto 48px;
+  text-align: left;
+  padding: 0;
+}
+
+.benefits-item {
+  position: relative;
+  padding: 12px 12px 12px 40px;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: var(--ink);
+  border-bottom: 1px solid var(--line);
+}
+
+.benefits-item:last-child {
+  border-bottom: none;
+}
+
+.benefits-item::before {
+  content: "\2713";
+  position: absolute;
+  left: 8px;
+  top: 12px;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
 /* ---------- FOOTER ---------- */
 .footer {
   border-top: 1px solid var(--line);
