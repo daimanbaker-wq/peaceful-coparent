@@ -24,34 +24,6 @@
         <p class="hero-subtitle">
           Many separating couples may think that&rsquo;s impossible. It isn&rsquo;t. I did it&hellip; and was happy to do so.
         </p>
-
-        <!-- Email Capture Form -->
-        <div class="form-wrap" id="signup">
-          <form id="lead-form" class="lead-form" action="#" method="GET">
-            <label for="email" class="sr-only">Your email address</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="you@example.com"
-              required
-              autocomplete="email"
-            >
-            <button type="submit" class="btn btn-primary">
-              Download the Free Blueprint
-            </button>
-          </form>
-          <p class="form-note">No spam. Unsubscribe anytime.</p>
-        </div>
-
-        <!-- Coming Soon fallback (shown if GUMROAD_URL is empty) -->
-        <div class="form-wrap coming-soon" id="coming-soon" style="display:none;">
-          <p class="coming-soon-text">Coming soon &mdash; drop your email below and we'll notify you the moment it's ready.</p>
-          <form id="notify-form" class="lead-form" action="#" method="GET">
-            <label for="notify-email" class="sr-only">Your email address</label>
-            <input type="email" id="notify-email" name="email" placeholder="you@example.com" required autocomplete="email">
-            <button type="submit" class="btn btn-secondary">Notify Me</button>
-          </form>
         </div>
       </div>
     </div>
@@ -83,6 +55,42 @@
 
       <div class="cta-center">
         <a href="#signup" class="btn btn-primary">Get the Free Blueprint</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SIGNUP AT BOTTOM ====== -->
+  <section class="bottom-signup" id="signup">
+    <div class="container">
+      <h2 class="section-title">Get the Free Blueprint</h2>
+      <p class="section-desc">
+        Drop your email below and I&rsquo;ll send you the <strong>Peaceful Co-Parent Blueprint</strong> &mdash; no spam, unsubscribe anytime.
+      </p>
+      <div class="form-wrap">
+        <form id="lead-form" class="lead-form" action="#" method="GET">
+          <label for="email" class="sr-only">Your email address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@example.com"
+            required
+            autocomplete="email"
+          >
+          <button type="submit" class="btn btn-primary">
+            Download the Free Blueprint
+          </button>
+        </form>
+        <p class="form-note">No spam. Unsubscribe anytime.</p>
+      </div>
+
+      <!-- Coming Soon fallback (shown if GUMROAD_URL is empty) -->
+      <div class="form-wrap coming-soon" id="coming-soon" style="display:none;">
+        <p class="coming-soon-text">Coming soon &mdash; drop your email below and we'll notify you the moment it's ready.</p>
+        <form id="notify-form" class="lead-form" action="#" method="GET">
+          <input type="email" id="notify-email" name="email" placeholder="you@example.com" required autocomplete="email">
+          <button type="submit" class="btn btn-secondary">Notify Me</button>
+        </form>
       </div>
     </div>
   </section>
