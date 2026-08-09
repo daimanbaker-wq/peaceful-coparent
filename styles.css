@@ -152,6 +152,11 @@ body {
   color: #a89f90;
 }
 
+.form-note a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
 .coming-soon-text {
   margin-bottom: 16px;
   font-size: 0.95rem;
