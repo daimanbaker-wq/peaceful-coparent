@@ -10,7 +10,7 @@
 //   Google Apps Script: "https://script.google.com/macros/s/.../exec"
 // Leave empty string "" to skip email capture (PDF still downloads).
 // ============================================================
-const EMAIL_CAPTURE_URL = ""; // <-- SET THIS
+const EMAIL_CAPTURE_URL = "https://formspree.io/f/mzepejnj"; // <-- SET THIS
 
 // Local PDF path (hosted on GitHub Pages alongside the page)
 const PDF_URL = "peaceful-co-parent-bill-of-rights.pdf";
