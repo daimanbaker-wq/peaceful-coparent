@@ -157,6 +157,40 @@ body {
   text-decoration: underline;
 }
 
+/* ---------- DOWNLOAD SUCCESS ---------- */
+.download-success {
+  text-align: center;
+  padding: 20px 12px;
+}
+
+.success-icon {
+  font-size: 2.5rem;
+  color: var(--accent);
+  margin-bottom: 8px;
+  line-height: 1;
+}
+
+.success-text {
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+
+.success-sub {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.success-sub strong {
+  color: var(--ink);
+  font-weight: 500;
+  word-break: break-all;
+}
+
 .coming-soon-text {
   margin-bottom: 16px;
   font-size: 0.95rem;
